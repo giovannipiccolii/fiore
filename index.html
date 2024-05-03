@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+        <title>Fiorenzuola si racconta</title>
+
+    </head>
+
+
+    <body>
+
+        <!--DIV NASCOSTO E VISIABILE SOLO QUANDO LA RISOLUZIONE SUPERA QUELLA DA MOBILE-->
+        <div class="cover-desktop">
+            <div class="desktop-content">Il sito di Fiorenzuola è progettato esclusivamente per dispositivi mobile.</div>
+        </div>
+
+        <div class="splash-screen">
+            <img src="imgs/landing.png" alt="Splash Screen Image">
+        </div>
+
+
+        <header id="header">
+            <nav>
+                <div class="menu-left">
+                    <div class="title">
+                        <a href="#" id="scrollToTop">
+                            Fiorenzuola <br>si racconta,
+                            <br>l'800 svelato
+                        </a>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+
+        <main id="main">
+
+           <div class="top-element">
+
+            <div class="content">
+                <div class="subtitle">4.5.2024 — 29.9.2024</div>
+            </div>
+
+            <div class="first-content">
+
+                <div class="introduction">Dagli archivi storici comunali, i personaggi
+                    e le storie dell’antico comune, oggi soppresso,
+                    raccontati con occhi del presente.
+                    Un viaggio multimediale tra piazzette e strette
+                    vie per scoprire chi eravamo.</div>
+            </div>
+
+            <div class="audio-content">
+                <div class="audio-player">
+                    <audio id="audio" controls>
+                    <source src="audio/1.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+
+        </div>
+           
+
+
+        <div class="bottom-element">
+
+           <div class="content">
+                <div class="subtitle">Inizia il tour</div>
+            </div>
+        </div>
+
+    </main>
+
+            <!--IL BRIGADIERE-->
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible1" class="collapsible-toggle">
+                <label for="collapsible1" class="collapsible-label">1&ensp;&ensp;&ensp;Il brigadiere<span class="icon"></span></label>
+
+                <div class="collapsible-content">
+                    <div class="illustration">
+                        <img src="imgs/BRIGADIERE.png">
+                    </div>
+
+                    <div class="author-content"><div class="author-left">Illustrazione di:</div> <div class="author-right">Giulia D'Ambrosio</div></div>
+
+                    <div class="content-text">
+
+                        Lettera al Legato pontificio nella quale il Priore di Fiorenzuola riferisce i fatti accaduti il 12 gennaio 1839, alle tre e mezza di notte. Il Brigadiere entra in casa dell’anziano Magi, dove conversavano e giocavano a carte una decina di abitanti del luogo, e vennero tutti maltrattati.
+
+                    </div>
+
+                    <div class="inner-content">
+                        <div class="audio-player">
+                            <audio id="audio" controls>
+                            <source src="audio/2.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+
+        
+                    <div class="content-text">
+                        Priore fa rapporto a Sua Ecc.m Rev.ma sopra diverse stravaganze usate dal brigadiere la sera del dì 12 gennaro 1839;
+                             <br><br>“Dal contesto del presente rapporto rileverà l’Em. Vostra Rev.ma qual straordinaria misura è stata adottata nelle ispezioni domiciliari eseguite dal brigadiere de’ carabinieri comandante la colonna mobile in girata da queste parti alle ore tre e mezza circa di notte del giorno 12 gennaro andante. Egli con i suoi subalterni si recò in Fiorenzuola e, giunto sul luogo, senza usare quelle convenienze dovute avanti di entrare nelle abitazioni de’ particolari appre da se stesso la porta di casa dell’anziano sig Giambattista Magi, s’introduce nella camera dove vi era in conversazione i seguenti artieri (muratori, selcini, fabbri) soliti in tutte le sere di sabato e in quei giorni che non [lavorano]   Quattro di questi giocano una partita a tresette e gli altri una partita a ciarle, vennero tutti maltrattati e in particolar modo, al padrone di casa, lacerò le carte non sazio[ …] di infastidire l’anziano G. Magi. 
+                        <br><br>Sortito da quella casa, si portò … dal bettolante Pietro Majnardi nella quale osteria non vi era persona ma tuttavia fece qualche sivizia. In appresso andette nella bottega del calzolaio Marchetti Vincenzo e ad Angelo Ghiandoni, perché fumava le dette un schiaffo, e strapazzò gli altri minacciando di carcerazione. 
+                        <br><br>Accade spessissimo che vengono i carabinieri in perlustrazione di notte e di giorno, né mai si ebbero dei disordini in minimo che, avendo i brigadieri, i marescialli eseguito soltanto esattamente il servizio a di loro istituto con quella precisione che convengono al loro onorevole impiego.”                   
+                    </div>
+                    
+
+                    <div class="image-container">
+
+                        <img class="scans" src="imgs/scans/B2.Brigadiere.jpg" alt="Brigadiere">
+
+                        <div class="overlay">
+                            <div class="overlay-content">
+                              <img id="overlay-image" src="" alt="">
+                            </div>
+                          </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <!--UN VINO DA INCANTO-->
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible2" class="collapsible-toggle">
+                <label for="collapsible2" class="collapsible-label">2&ensp;&ensp;&ensp;Un vino da incanto<span class="icon"></span></label>
+
+                <div class="collapsible-content">
+                    <div class="illustration">
+                        <img src="imgs/vino.png">
+                    </div>
+
+                    <div class="author-content"><div class="author-left">Illustrazione di:</div> <div class="author-right">Erica Matta</div></div>
+
+                    <div class="content-text">
+
+                        Con il sistema a candela vergine, veniva dichiarato aggiudicatario il partecipante la cui offerta non venisse superata da un’altra nel tempo che occorreva per ardere tre candele accese in sequenza. Qui si trascrive la procedura per appaltare il Dazio del vino a spina.
+
+                    </div>
+
+                    <div class="inner-content">
+                        <div class="audio-player">
+                            <audio id="audio" controls>
+                            <source src="audio/3.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+
+        
+                    <div class="content-text">
+                        “…quest’oggi dieci Novembre 1850 alle ore 20 italiane in questa Sala di Municipale Residente s’apre l’Incanto per deliberare ad estinzione di candela vergine l’appalto del Dazio vino a spina e d’introduzione per l’anno venturo 1851 con la condizione che l’Appaltatore debba abbonare al venditore del vino il dieci per cento che s’intende consumare per proprio uso, ben inteso però che questo diffalco dovrà succedere alloraquando il venditore non abbia altra botte a mano per conto proprio ed usi per se di quello che vende, e con tutte le altre condizioni e patti che trovansi nel relativo capitolato che ora da me Segretario infrascritto presenti l’Ill.mo Sig.r Presidente Municipale Vincenzo Bacchiani e Raffaele Giuliani Testimonj viene letto ad alta ed intellegibile voce. Terminata la lettura e accesa la candela venne pubblicato dal Balivo comunale Paolo Tornari che questo appalto si concede per la somma di scudi 77.60<br>
+                        <br>In tale atto si presentò<br>
+                        <div class="line"></div><br>
+                        <div class="datalist"><div class="data-left">Giacomo Lugli con la sicurtà <br>di Luigi Franca ed offrì </div> <div class="data-right">scudi 80</div></div>
+                        <div class="datalist"><div class="data-left">Luigi Fattori con la sicurtà <br>da nominarsi ed offrì </div> <div class="data-right">scudi 85</div></div>
+                        <div class="datalist"><div class="data-left">Giuseppe Nicolini con sicurtà <br>da nominarsi ed offrì </div> <div class="data-right">scudi 86</div></div>
+                        <div class="datalist"><div class="data-left">Luigi Fattori </div> <div class="data-right">scudi 87</div></div>
+                        <div class="datalist"><div class="data-left">Giacomo Lugli </div> <div class="data-right">scudi 90</div></div>
+                        <div class="line"></div>
+                        Dopo quest’offerta cessò di ardere la candela ed accesene altre due queste si estinsero totalmente vergini, per cui rimase deliberato quest’appalto del Dazio vino a spina a Giacomo Lugli con la solida sicurtà di Luigi Franca per la somma di Romani scudi 90 riservata e salva sempre l’adizione della vigesima e sesta nonché la Superiore approvazione
+                        Atto fatto, letto e chiuso in questa Sala di Municipale Residenza”
+                  
+                    </div>
+                    
+
+                    <div class="image-container">
+
+                        <img class="scans" src="imgs/scans/B3.a.vino.jpg" alt="Vino">
+                        <img class="scans" src="imgs/scans/B3.b.vino.jpg" alt="Vino">
+                        <img class="scans" src="imgs/scans/B3.vino.jpg" alt="Vino">
+
+                        <div class="overlay">
+                            <div class="overlay-content">
+                              <img id="overlay-image" src="" alt="">
+                            </div>
+                            <button id="prevBtn"><</button>
+                            <button id="nextBtn">></button>
+                          </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+            <!--IL CASERMAGGIO-->
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible3" class="collapsible-toggle">
+                <label for="collapsible3" class="collapsible-label">3&ensp;&ensp;&ensp;Il casermaggio<span class="icon"></span></label>
+
+                <div class="collapsible-content">
+                    <div class="illustration">
+                        <img src="imgs/oggetti.png">
+                    </div>
+
+                    <div class="author-content"><div class="author-left">Illustrazione di:</div> <div class="author-right">Emma Tonietto</div></div>
+
+                    <div class="content-text">
+
+                        Il militare Prosperi, Capo Tosto del Casotto sanitario sito sul litorale, presso la cosiddetta Palata Magrini, verbalizza quanto riceve dal Comune di Fiorenzuola. 
+
+                    </div>
+
+                    <div class="inner-content">
+                        <div class="audio-player">
+                            <audio id="audio" controls>
+                            <source src="audio/4.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+
+
+                    <div class="content-text">
+                        “Dichiaro di aver ricevuto dalla Comunità di Fiorenzuola i qui sotto notati effetti di Casermaggio esistenti nel nuovo Casotto sanitario alla palata Magrini nel quale fo’ parte di capo posto di quell’appostamento militare che saranno scrupolosamente conservati da Capo posto a Capo posto.<br>
+                        <br>
+                        <div class="line"></div><br>
+                        <div class="datalist"><div class="data-left">Distinta degli effetti</div></div>
+                        <div class="datalist"><div class="data-left">3 &nbsp;&nbsp;Paglioni di paglia a due piazze</div></div>
+                        <div class="datalist"><div class="data-left">2 &nbsp;&nbsp;coperte di lana</div></div>
+                        <div class="datalist"><div class="data-left">3 &nbsp;&nbsp;cavaletti d’abete</div></div>
+                        <div class="datalist"><div class="data-left">12 &nbsp;&nbsp;tavole da letto d’abete</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;portavoce di latta*</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;fanale con suo lumino</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;candeliere di latta</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;foccone di legno compito (?)</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;orcio da acqua</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;scopa di meliga**</div></div>
+                        <div class="datalist"><div class="data-left">5 &nbsp;&nbsp;scudelle di maiolica ordinaria</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;piatto grande come sopra</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;pigna con il suo coperchio <br>(pignatta con suo coperchio di coccio)</div></div>
+                        <div class="datalist"><div class="data-left">5 &nbsp;&nbsp;cucchiaje di legno <br>(cucchiari di legnio)</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;fiaschetto da olio (bossolo da olio di terra)</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;cortello grande per tagliare la carne</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;forcinone di ferro</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;ramajolo di legno</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;schiumarola di legno</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;calamajo, con suo spolverino e tre penne</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;tavolinetto d’abete con cassetto</div></div>
+                        <div class="datalist"><div class="data-left">1 &nbsp;&nbsp;banca lunga d’abete </div></div>
+                        <div class="line"></div><br>
+                        <div class="datalist"><div class="data-left">totale dei capi n.50</div></div>
+                        <div class="line"></div><br>
+                        <div class="datalast"><div class="data-left">*  in passato, tubo metallico fornito di boccagli alle estremità per trasmettere messaggi vocali da un punto a un altro, da un ambiente a un altro<br><br>
+                        **o mèlica  Pianta erbacea con spighette di fiori color giallo raccolte in pannocchie (fam. Graminacee, mais?)
+                        </div></div>
+                    </div>
+                    
+
+                    <div class="image-container">
+
+                        <img class="scans" src="imgs/scans/B4.casermaggio.jpg" alt="Casermaggio">
+
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <img id="overlay-image" src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            <!--LE RONDINI-->
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible4" class="collapsible-toggle">
+                <label for="collapsible4" class="collapsible-label">4&ensp;&ensp;&ensp;Le rondini<span class="icon"></span></label>
+
+                <div class="collapsible-content">
+                    <div class="illustration">
+                        <img src="imgs/rondini.png">
+                    </div>
+
+                    <div class="author-content"><div class="author-left">Illustrazione di:</div> <div class="author-right">Beatrice Massei</div></div>
+
+                    <div class="content-text">
+
+                        Molti gli avvisi a tema Sanità nel 1837, anno in cui, si legge in altri documenti la “Capitale è infetta ...ed è disgraziatamente apparso il Cholera in un Sobborgo di Macerata”. Gli spostamenti di uomini e animali all’interno dello Stato Pontificio era severamente controllato, a motivo della comparsa del morbo asiatico.
+
+                    </div>
+
+                    <div class="inner-content">
+                        <div class="audio-player">
+                            <audio id="audio" controls>
+                            <source src="audio/5.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+
+        
+                    <div class="content-text">
+                        E’ invalsa la opinione che la Caccia delle Rondini non sia compresa tra quelle vietate … Ci è stato riferito che per tale erronea si va facendo la suddetta Caccia specialmente lungo il littorale con pregiudizio della salubrità dell’aria, che da quegli animali ne viene purgata. Ci affrettiamo pertanto a dichiarare al Pubblico, che anche la Caccia delle Rondini è compresa fra quelle proibite, e che i Contravventori anderanno soggetti alle pene…: oltre alla perdita degli strumenti di caccia, multa di scudi tra 10 e 50, eventuale risarcimento, carcerazione.
+                       <br><br> Lettera del Priore al Legato: “Ho posto persona alla Siligata in qualità di Deputato alla sorveglianza dei viaggiatori che giungono sul luogo per riconoscere se vi fossero persone provenienti da passi infetti del morbo asiatico e precettati a star sempre isolati ed al caso poter prendere quelle precauzioni prescritte dai regolamenti sanitari.”                  
+                    </div>
+                    
+
+                    <div class="image-container">
+
+                        <img class="scans" src="imgs/scans/B5.a.rondini.jpg" alt="Rondini">
+                        <img class="scans" src="imgs/scans/B5.rondini.jpg" alt="Rondini">
+
+                        <div class="overlay">
+                            <div class="overlay-content">
+                              <img id="overlay-image" src="" alt="">
+                            </div>
+                            <button id="prevBtn"><</button>
+                            <button id="nextBtn">></button>
+                          </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!--IL MATTO DEL PAESE-->
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible5" class="collapsible-toggle">
+                <label for="collapsible5" class="collapsible-label">5&ensp;&ensp;&ensp;Il matto del paese<span class="icon"></span></label>
+
+                <div class="collapsible-content">
+                    <div class="illustration">
+                        <img src="imgs/matto sito.png">
+                    </div>
+
+                    <div class="author-content"><div class="author-left">Illustrazione di:</div> <div class="author-right">Stefano Zurlo</div></div>
+
+                    <div class="content-text">
+
+                        Il carteggio fra mons. Capelletti, fondatore dell’Ospedale San Benedetto, e il Gonfaloniere di Fiorenzuola fotografa un particolare spaccato di vita paesana che si inquadra nel più ampio discorso delle problematiche assistenziali del tempo, proprio nel momento in cui a quelle problematiche si cercava di porre rimedio con la costruzione del nuovo Ospedale psichiatrico.
+
+                    </div>
+
+                    <div class="inner-content">
+                        <div class="audio-player">
+                            <audio id="audio" controls>
+                            <source src="audio/6.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+
+        
+                    <div class="content-text">
+                        Su istanza del Gonfaloniere per l’assistenza ad un mentecatto, il Cappelletti risponde: “…  occorre quindi che V.S. mi dimostri se l’infermo sia soltanto leso di mente, ovvero attaccato da furiosa mania, per cui se ne renda necessaria la reclusione, anche per oggetto della sicurezza individuale del suddetto infelice e di altrui, come anche per riguardi dovuti al pubblico costume e decenza. S’affretti V. Sa. darmi preciso e categorico riscontro, in attesa del quale mi ripeto con stima.”
+                        <br><br>Ulteriore caso:<br> Il Gonfaloniere al Capelletti <br><br>
+                        "…Sono vari giorni che Maria G. domiciliata sin da moltissimi anni in questo Comune ha dato segno di mania. Siccome questo Paese è situato sulle balze, che dalla parte del mare vi è un pericolo ben grande di precipitarsi, così ha convenuto prendere provvedimenti affinché non possa accadere alla suddetta qualche disgrazia. Per ora la malattia non ha preso quel possesso, che possa chiamarsi forente; ma si è dovuto farla invigilare si è più volte appressata ne pericoli, da quali è stata tolta dalle persone del Paese. Per evitare adunque ogni inconveniente, si è creduto bene di rinchiudere la medesima nella casa ove abita ponendovi alla finestra una crociera di legno. Pongo il tutto al savio discernimento dell’Eccellenza Vostra Rev.ma, affinché si degni di precisarmi disposizioni che crederà ordinarmi…"
+                        <br><br>Risponde il Capelletti:<br> "…E mentre approvo le cautele adottate, non potendo provvedere attualmente al collocamento di tal infelice in questo nuovo Stabilimento di Mentecatti per non essere ancora in istato da porsi in attività, rendensi indispensabile che codesto Comune si dia tutto il carico per la cura e custodia di essa."                 
+                    </div>
+                    
+
+                    <div class="image-container">
+
+                        <img class="scans" src="imgs/scans/B6.a.matto.jpg" alt="Matto">
+                        <img class="scans" src="imgs/scans/B6.b.matto_oscurato.jpg" alt="Matto">
+                        <img class="scans" src="imgs/scans/B6.matto.jpg" alt="Matto">
+
+                        <div class="overlay">
+                            <div class="overlay-content">
+                              <img id="overlay-image" src="" alt="">
+                            </div>
+                            <button id="prevBtn"><</button>
+                            <button id="nextBtn">></button>
+                          </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!--IL CAMPANILE-->
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible6" class="collapsible-toggle">
+                <label for="collapsible6" class="collapsible-label">6&ensp;&ensp;&ensp;Il campanile<span class="icon"></span></label>
+
+                <div class="collapsible-content">
+                    <div class="illustration">
+                        <img src="imgs/campanile.png">
+                    </div>
+
+                    <div class="author-content"><div class="author-left">Illustrazione di:</div> <div class="author-right">Giulia Silipo</div></div>
+
+                    <div class="content-text">
+
+                        Francesco Girometti, di professione muratore, era salito di sua volontà sul campanile per suonare le campane, quando venne colpito da un fulmine. Il Priore espone i fatti in una lettera al Tribunale di Prima Istanza in Pesaro per sapere cosa fare. Il Tribunale risponde.
+
+                    </div>
+
+                    <div class="inner-content">
+                        <div class="audio-player">
+                            <audio id="audio" controls>
+                            <source src="audio/7.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+
+        
+                    <div class="content-text">
+                        Il Priore: <br>“Venne qui fulminato un individuo di questo comune, “UN TALE” detto Ravino, di prof muratore, mentre si era di sua volontà portato a suonar le campane, essendo state inutili tutte le cure per richiamarlo in vita, vista l’ora tarda, e visto che il cadavere rimaneva esposto alle intemperie su un tavolato del campanile, si è creduto necessario rimuoverlo di lì e collocarlo nella chiesa parrocchiale. Dipenderà dalle sagge determinazioni di VSI.ma se debba darsi sepoltura al cadavere in seguito di suo venerato riscontro”.<br><br>
+                        Il Tribunale: <br>“Tostoché la morte del Girometti è avvenuta nel modo da V.S espostomi col suo rapporto in data d’oggi ed in conseguenza non vi è dubbio alcuno, che causa della medesima sia stata azione delittuosa, ma bensì mera disgrazia. Le significo non occorrere a questo Tribunale di assumere veruna legale ispezione…"               
+                    </div>
+                    
+
+                    <div class="image-container">
+
+                        <img class="scans" src="imgs/scans/B7.campanile.jpg" alt="Campanile">
+
+                        <div class="overlay">
+                            <div class="overlay-content">
+                              <img id="overlay-image" src="" alt="">
+                            </div>
+                            
+                          </div>
+                    </div>
+
+
+                </div>
+            </div>
+            
+
+
+
+
+            <!--extras-->
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible7" class="collapsible-toggle">
+                <label for="collapsible7" class="collapsible-label" style="background-color: lightgray ;">contenuti extra<span class="icon"></span></label>
+
+                <div class="collapsible-content" style="background-color: lightgray;">
+
+                     <!--DOCUMENTO 1-->
+                    <div class="extra-subtitle">Documento n.1</div>
+                    <div class="extra-title">Regio decreto <br>sul nome del comune</div>
+
+                    <div class="image-container">
+
+                        <img class="scans" src="imgs/scans/extra1_1.jpg" alt="Extra1">
+                        <img class="scans" src="imgs/scans/extra1_2.jpg" alt="Extra1">
+                        <img class="scans" src="imgs/scans/extra1_3.jpg" alt="Extra1">
+
+                        <div class="overlay">
+                            <div class="overlay-content">
+                              <img id="overlay-image" src="" alt="">
+                            </div>
+                            <button id="prevBtn"><</button>
+                            <button id="nextBtn">></button>
+                          </div>
+                    </div>
+
+                    <div class="inner-content">
+                        <div class="audio-player">
+                            <audio id="audio" controls>
+                            <source src="audio/extras/extra.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+
+                    <div class="line"></div>
+                    
+
+                    <!--DOCUMENTO 2-->
+                    <div class="extra-subtitle">Documento n.2</div>
+                    <div class="extra-title">Questionario — <br>Inchiesta anno 1885</div>
+
+                    <div class="image-container">
+
+                        <img class="scans" src="imgs/scans/extra2.jpg" alt="Extra2">
+
+                        <div class="overlay">
+                            <div class="overlay-content">
+                              <img id="overlay-image" src="" alt="">
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="inner-content">
+                        <div class="audio-player">
+                            <audio id="audio" controls>
+                            <source src="audio/extras/extra1.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <!--DOCUMENTO 3-->
+                    <div class="extra-subtitle">Documento n.3</div>
+                    <div class="extra-title">Un bel concerto <br> di campane</div>
+
+                    <div class="image-container">
+
+                        <img class="scans" src="imgs/scans/extra3.jpg" alt="Extra2">
+
+                        <div class="overlay">
+                            <div class="overlay-content">
+                              <img id="overlay-image" src="" alt="">
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="inner-content">
+                        <div class="audio-player">
+                            <audio id="audio" controls>
+                            <source src="audio/extras/extra2.wav" type="audio/wav">
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        <footer>
+
+            <div class="footer-100">
+                Mostra documentaria e grafica realizzata col contributo della Regione Marche
+                Autorizzata dalla Soprintendenza Archivistica e Bibliografica delle Marche
+            </div>
+
+            <div class="line" style="background-color: #fff;"></div>
+        
+
+                    <div class="footer-text">
+                    <div class="footer-box" style="padding-right: 10px;">
+                        Promotore<br>Comune di Pesaro 
+                        <br><br>
+                        Coordinamento progetto<br> Fabio Costantini
+                        <br><br>
+                        Ricerca e Contenuti espositivi<br> Simonetta Bastianelli
+                    </div>
+
+                    <div class="footer-box" style="padding-right: 10px;">
+                        Partnership<br>
+                        Fondazione Ente Olivieri<br>Biblioteca e Musei Oliveriani
+                        <br><br>
+                        Coordinamento<br> Brunella Paolini
+                        <br><br>
+                        Comunicazione<br> Eleonora Rubechi Mensitieri
+                    </div>
+                    </div>
+
+                    <div class="line" style="background-color: #fff;"></div>
+
+                    <div class="footer-text">
+                    <div class="footer-box" style="padding-right: 10px;">
+                        In collaborazione con<br>
+                        Istituto Superiore per le Industrie Artistiche, ISIA U, Laboratorio Terza Missione<br>
+                        <br>
+                        Docenti<br>
+                        Giuseppe Biagetti<br>
+                        Francesco Delrosso<br>
+                        Jonathan Pierini<br>
+                    </div>
+
+                    <div class="footer-box" style="padding-right: 10px;">
+                        Illustrator*<br>
+                        Giulia D’Ambrosio <br>Beatrice Massei<br> Erica Matta <br>Giulia Silipo <br>Emma Tonietto <br>Stefano Zurlo
+                        <br><br>
+                        Grafica e Website<br>
+                        Rosita Botti<br> Giovanni Piccoli
+                    </div>
+                    </div>
+
+                    <div class="line" style="background-color: #fff;"></div>
+                    
+                    <div class="footer-text">
+                    <div class="footer-box" style="padding-right: 10px;">
+                        Realizzazione audio<br>
+                        Liceo Artistico Ferruccio Mengaroni
+                        <br><br>
+                        Referente didattico<br>
+                        e voce contenuti extra<br>
+                        Giuseppe Rondina
+                        <br><br>
+                        Referente tecnico<br>
+                        Andrea Solomita
+                    </div>
+    
+                    <div class="footer-box" style="padding-right: 10px;">
+                        Voci<br>
+                        Associazione <br>“Le Voci dei Libri”<br> Eleonora Rubechi Mensitieri <br>Corrado Capparelli
+                        <br><br>
+                        Ricerca d’archivio<br>
+                        Nicoletta Biondi<br> Arianna Zaffini
+                    </div>
+                    </div>
+    
+                        <div class="line" style="background-color: #fff;"></div>
+
+                    <div class="footer-100" style="padding-bottom: 40px;">
+                        Un ringraziamento alla comunità di Fiorenzuola di Focara e a tutti coloro che, a vario titolo, hanno contribuito alla realizzazione del progetto
+                    </div>
+
+            <div class="logo-container">
+              <div class="logo-box">
+                <img src="imgs/logos/comunepesaro.png" alt="Logo 1">
+              </div>
+              <div class="logo-box">
+                <img src="imgs/logos/wepesaro.png" alt="Logo 2">
+              </div>
+              <div class="logo-box">
+                <img src="imgs/logos/regionemarche.png" alt="Logo 3">
+              </div>
+            </div>
+
+            <div class="logo-container">
+                <div class="logo-box">
+                    <img src="imgs/logos/liceomengaroni.png" alt="Logo 3">
+                  </div>
+                <div class="logo-box">
+                  <img src="imgs/logos/vocideilibri.png" alt="Logo 1">
+                </div>
+                <div class="logo-box">
+                  <img src="imgs/logos/enteolivieri.png" alt="Logo 2">
+                </div>
+              </div>
+
+            <div class="logo-container">
+                <div class="logo-box-long">
+                  <img src="imgs/logos/pesarocultura.png" alt="Logo 3">
+                </div>
+                <div class="logo-box">
+                    <img src="imgs/logos/isiau.png" alt="Logo 3">
+                  </div>
+              </div>
+
+            <div class="line" style="background-color: #fff;"></div>
+
+            <div class="footer-100" style="padding-bottom: 0px;">
+                &#169; 2024 ISIA U — Giovanni Piccoli
+            </div>
+
+          </footer>
+
+        </body>
+    </html>
